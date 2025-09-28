@@ -1,1 +1,0 @@
-# ASTON-qa-test-java
