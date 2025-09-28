@@ -6,7 +6,7 @@ public class Main {
         
         // Задание 1: Работа с числами
         System.out.println("=== Задание 1 ===");
-        System.out.print("Введите два целых числа (через пробел): ");
+        System.out.print("Enter 2 integers (separated by a space): ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         
@@ -20,13 +20,13 @@ public class Main {
         }
         
         // Математические операции
-        System.out.println("Сложение: " + (a + b));
-        System.out.println("Вычитание: " + (a - b));
-        System.out.println("Умножение: " + (a * b));
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
         if (b != 0) {
-            System.out.println("Деление: " + ((double)a / b));
+            System.out.println("Division: " + ((double)a / b));
         } else {
-            System.out.println("Деление: на ноль делить нельзя");
+            System.out.println("Division: cannot be divided by zero");
         }
         
         scanner.nextLine(); // очистка буфера
