@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumberComparator {
+public class Tasks-one {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter two integers (space separated): ");
